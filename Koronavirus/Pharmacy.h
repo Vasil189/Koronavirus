@@ -26,7 +26,7 @@ public:
 
 	void SortByName(fstream& f, const char* filename, const char* filenameRes);//Сортування за назвою
 	void SortByCost(fstream& f, const char* filename, const char* filenameRes);//Сортування за ціною
-	void SortByCount(fstream& f, const char* filename, const char* filenameRes);
+	void SortByCount(fstream& f, const char* filename, const char* filenameRes);//Сортування за кількісю
 
 	void DeletePreparat(fstream& f, const char* filename, char* name);//Видалення по назві
 	void AppendPreparat(fstream& f, const char* filename);//Додавання препарату
